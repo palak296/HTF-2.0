@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76954329552",
+    "project_id": "garage-52f48",
+    "storage_bucket": "garage-52f48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76954329552:android:2030348d7aa7ad37c0d9d5",
+        "android_client_info": {
+          "package_name": "com.example.garage_in_a_click"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76954329552-pabjrvafetb3tu8jf1l2phftbdi7e0b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.garage_in_a_click",
+            "certificate_hash": "c80630b35640eba9440636799be361f906f85ae4"
+          }
+        },
+        {
+          "client_id": "76954329552-6lssieg5egrb0iprifo6t7r421jqnkv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcP0CTAkxRMW_bUXCw0wgjIxI0wr_Esm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76954329552-6lssieg5egrb0iprifo6t7r421jqnkv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
