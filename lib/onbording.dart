@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:garage_in_a_click/navigation.dart';
-import 'package:garage_in_a_click/screens/home_screen.dart';
-import 'package:garage_in_a_click/screens/profile_screen.dart';
+import 'package:garage_in_a_click/start.dart';
 import 'content_model.dart';
 
 
@@ -92,7 +91,7 @@ class _OnbordingState extends State<Onbording> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (_) =>  MyNavBar(),
+                      builder: (_) =>  Start(),
                     ),
                   );
                 }

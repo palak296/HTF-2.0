@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:garage_in_a_click/navigation.dart';
 import 'package:garage_in_a_click/start.dart';
 import 'SignUp.dart';
 

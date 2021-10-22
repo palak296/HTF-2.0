@@ -3,14 +3,15 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:garage_in_a_click/homepage.dart';
 import 'package:garage_in_a_click/navigation.dart';
 import 'package:garage_in_a_click/screens/home_screen.dart';
-import 'package:garage_in_a_click/screens/profile_screen.dart';
+
 import 'package:garage_in_a_click/signup.dart';
 import 'package:garage_in_a_click/start.dart';
+import 'login.dart';
 import 'onbording.dart';
 
-import 'login.dart';
 
 
 void main() async {
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         splashTransition: SplashTransition.rotationTransition,
 
-        nextScreen:  const Onbording(),
+        nextScreen:  const MyNavBar(),
 
         //duration: 5 ,
 
@@ -50,6 +51,7 @@ class MyApp extends StatelessWidget {
         "Login" : (BuildContext context)=>const Login(),
         "SignUp":(BuildContext context)=>const SignUp(),
         "start":(BuildContext context)=>  const Start(),
+        "navbar": (BuildContext context)=> const MyNavBar(),
       },
 
 

@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:garage_in_a_click/homepage.dart';
 import 'package:garage_in_a_click/screens/home_screen.dart';
-import 'package:garage_in_a_click/screens/profile_screen.dart';
+import 'package:garage_in_a_click/screens/profile/profilescreen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 

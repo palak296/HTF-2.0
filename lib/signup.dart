@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import 'login.dart';
 
+
 class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
 
